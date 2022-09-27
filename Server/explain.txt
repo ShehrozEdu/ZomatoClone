@@ -1,0 +1,39 @@
+APIs
+ GET get-locations
+ GET get-meal-types
+ GET get-restaurant-by-location-id
+ POST login
+ POST sign-up
+    email
+    password
+    firstname
+    lastname
+
+ 7 Filter
+  # location 
+  # cuisine
+  # sort ()
+  # low cost 500
+  # high cost 1000
+  # pages
+  # mealType ( Mandatory )
+
+ GET get-restaurant-details-by-id
+ GET get-meal-items-by-restaurant-id
+ GET get-order-by-users
+ GET get-order-details-by-id
+ POST post-order-details
+ POST payments
+
+
+
+Routes ===> Controller ====> Models
+       <====          <=====
+
+zomatoapi
+    mealtypes (collection)
+        {
+            "name": string,
+            "content": string,
+            "image": string
+        }// schema
